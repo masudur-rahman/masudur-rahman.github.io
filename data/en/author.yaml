@@ -1,0 +1,20 @@
+# some information about you
+name: "Masudur Rahman"
+nickname: "Masud"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/masud.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "masudjuly02@gmail.com"
+#  phone: "+8801723531067"
+  github: masudur-rahman
+  linkedin: masudur-rahman
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I work with Go
+  - I work with Kubernetes
+  - I work on open-source projects
+  - I love to work with some fun projects

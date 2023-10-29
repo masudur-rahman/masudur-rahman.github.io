@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: CUET NCPC 2017
+  image: /images/sections/achievements/ncpc.jpg
+  summary: "- Rank 27 in ICPC Dhaka Regional Preliminary Contest 2017 (Among 1400+ teams).\n
+  - Rank 31 in CUET National Collegiate Programming Contest, 2017.\n
+  - Rank 46 in ACM ICPC Dhaka Regional, 2017.\n
+  - Participated in ICPC Dhaka Regional Onsite Contest 2018.\n
+  - Codeforces: Max Rating: 1702 [ MASUDUR_RAHMAN ].\n
+  - Solved around 1400 programming problems in different online judges."
+- title: ICPC Dhaka Regional 2018
+  image: /images/sections/achievements/icpc.jpg
+  summary: "- Rank 27 in ICPC Dhaka Regional Preliminary Contest 2017 (Among 1400+ teams).\n
+  - Rank 31 in CUET National Collegiate Programming Contest, 2017.\n
+  - Rank 46 in ACM ICPC Dhaka Regional, 2017.\n
+  - Participated in ICPC Dhaka Regional Onsite Contest 2018.\n
+  - Codeforces: Max Rating: 1702 [ MASUDUR_RAHMAN ].\n
+  - Solved around 1400 programming problems in different online judges."

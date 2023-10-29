@@ -1,0 +1,63 @@
+
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: B.Sc. in Computer Science & Engineering
+    icon: fa-graduation-cap
+    timeframe: 2014-2018
+    institution:
+      name: Chittagong University of Engineering & Technology
+      url: "https://cuet.ac.bd"
+    grade: #(optional)
+      scale: CGPA
+      achieved: 3.76
+      outOf: 4
+    # takenCourses: #(optional)
+    #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    #   showGrades: true
+    #   courses:
+    #   - name: Data Structures and Algorithm
+    #     achieved: 3.75
+    #     outOf: 4
+    #   - name: Network Security
+    #     achieved: 3.80
+    #     outOf: 4
+    #   - name: Operating System
+    #     achieved: 3.5
+    #     outOf: 4
+    #   - name: Artificial Intelligent
+    #     achieved: 3.75
+    #     outOf: 4
+#    publications: #(optional)
+#      - title: An IoT based System for Riverine Vessel Monitoring
+#        url: "#"
+    extracurricularActivities: #(optional)
+      - Participated in numerous national and international Programming contests
+  - name: Higher Secondary School Certificate
+    icon: fa-university
+    timeframe: 2011-2013
+    institution:
+      name: Notre Dame College
+      url: "http://ndc.edu.bd"
+    grade: #(optional)
+      scale: GPA
+      achieved: 5.00
+      outOf: 5.00
+  - name: Secondary School Certificate
+    icon: fa-school
+    timeframe: 2006-2011
+    institution:
+      name: Shaheb Rampur High School
+    grade: #(optional)
+      scale: GPA
+      achieved: 5.00
+      outOf: 5.00

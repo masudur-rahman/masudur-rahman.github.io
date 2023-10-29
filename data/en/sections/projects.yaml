@@ -1,0 +1,97 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Open Source
+  filter: "open-source"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: ByteBuilders by AppsCode
+  logo: /images/sections/projects/bytebuilders.jpeg
+  role: Lead Software Engineer
+#  timeline: "Jan 2023 - Present"
+  url: "https://byte.builders"
+  summary: ByteBuilders is the Back-End server for a Kubernetes Dashboard. Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications.
+  tags: ["professional", "kubernetes", "cloud", "go", "backend"]
+
+- name: Grafana Operator by AppsCode
+  logo: /images/sections/projects/grafana.png
+  role: Contributor
+  repo: https://github.com/open-viz/grafana-tools
+  summary: Grafana Operator is a Kubernetes Controller for Provisioning and Managing Grafana Dashboards and Datasources. It’s based on a grafana sdk.
+  tags: ["professional", "kubernetes", "grafana"]
+
+- name: Pharmer by AppsCode
+  logo: /images/sections/projects/pharmer.png
+  role: Contributor
+  repo: "https://github.com/pharmer/pharmer"
+  summary: Pharmer is a Kubernetes Cluster Manager using Kubeadm & Cluster API.
+  tags: ["professional", "kubernetes", "cluster-api"]
+
+- name: Logger by AppsCode
+  logo: /images/sections/projects/logger.png
+  role: Contributor
+  repo: "https://github.com/gomodules/nats-logr"
+  summary: nats-logr is a logr implementation using NATS. union-logr is a logr implementation that aggregates multiple loggers.
+  tags: ["professional", "kubernetes", "logging", "nats"]
+
+- name: Pawsitively Purrfect
+  logo: /images/sections/projects/pawsitively-purrfect.png
+  role: Owner
+  timeline: "Jan 2021 - Present"
+  repo: "https://github.com/masudur-rahman/pawsitively-purrfect"
+  summary: Pawsitively Purrfect is a web application for Pet Adoption, written in Go, GraphQL. The project follows the Service-Repository-Data pattern for clean architecture. The Repository layer communicates with Data layer through a gRPC server.
+  tags: ["hobby", "go", "graphql", "backend"]
+
+- name: Cluster API Provider GCP
+  logo: /images/sections/projects/gcp.svg
+  role: Contributor
+  url: https://github.com/kubernetes-sigs/cluster-api-provider-gcp/pulls?q=is:pr+is:merged+author:masudur-rahman
+  summary: Fixed some issues regarding k8s version, Node role and default disk size.
+  tags: ["open-source", "kubernetes", "gcp"]
+
+- name: Gitea
+  logo: /images/sections/projects/gitea.png
+  role: Contributor
+  url: https://github.com/go-gitea/gitea/pull/8547
+  summary: Refactored naming of users’ avatars.
+  tags: ["open-source", "go", "backend"]
+
+- name: Grafana SDK
+  logo: /images/sections/projects/grafana.jpeg
+  role: Contributor
+  url: https://github.com/grafana-tools/sdk/pulls?q=is:pr+is:merged+author:masudur-rahman
+  summary: Refactored some existing APIs and added some new ones.
+  tags: ["open-source", "go", "backend"]
+
+- name: NATS Helm Chart
+  logo: /images/sections/projects/nats.jpeg
+  role: Contributor
+  url: https://github.com/nats-io/k8s/pull/315
+  summary: Fixed some Websocket related issues in NATS helm chart.
+  tags: ["open-source", "kubernetes", "nats"]
+
+- name: Facial Expression Recognition Using CNN and SVM Approach
+  logo: /images/sections/projects/ml.png
+  role: Owner
+  timeline: "Jan 2018 - Oct 2018"
+  summary: Developed a program to recognize Facial Expression from a static image. CNN and SVMs used to train and classify facial expressions into various categories. Python, TensorFlow, SVM, OpenCV used for image processing and machine learning.
+  repo: "https://github.com/masudur-rahman/FER-Final-Report"
+  tags: ["academic", "machine-learning", "image-processing"]

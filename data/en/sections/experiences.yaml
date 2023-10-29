@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: AppsCode Inc.
+    url: "https://www.appscode.com"
+    location: Dhaka Branch
+    # company overview
+    overview: AppsCode's mission is to accelerate the transition to Containers by building a Kubernetes-native Data Platform.
+  positions:
+  - designation: Lead Software Engineer
+    start: Jan 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - "Designing and Maintaining <strong>ByteBuilders API Server</strong>. Tools used: Go, macaron web framework, Helm, k8s."
+    - Re-architected cluster import flow for <strong>ByteBuilders</strong> and added dynamic feature controller."
+    - Lead ByteBuilders Backend team."
+
+  - designation: Senior Software Engineer
+    start: Jan 2021
+    end: Dec 2023
+    responsibilities:
+    - "Designed and Maintained <strong>ByteBuilders API Server</strong>. Tools used: Go, macaron web framework, helm, k8s."
+    - Added a support for importing <strong>Kubernetes Cluster</strong> [Managed, Public & Air Gaped] to ByteBuilders Dashboard.
+    - "Implemented <strong>A Background Task Manager</strong> for long running tasks, log/exec features for Kubernetes pods/services and Invoice generation from users’ usage data with the help of NATS. Tools used: Go, k8s, NATS"
+    - Developed a <strong>Prometheus Proxy Server</strong> for Grafana datasource.
+    - Added CI/CD pipelines for projects in <strong>Github Actions</strong>.
+    - Involved in Deployment & Maintenance of <strong>ByteBuilders Production Server</strong>.
+    - Guided and managed team-members.
+
+  - designation: Software Engineer
+    start: Nov 2018
+    end: Dec 2021
+    responsibilities:
+    - "Implemented a feature in <strong>Pharmer</strong> project to support Kubernetes Cluster Provisioning in Google Compute Engine using Cluster API. <b>Tools used: Go, Shell scripts.</b>"
+    - Contributed in <strong>ByteBuilders API Server</strong> integrating various features.
+    - Integrated <strong>Stripe Payment APIs</strong> including product, plan, payment and invoice apis.
+    - Developed a <strong>Kubernetes Controller</strong> for Provisioning and Managing Grafana Dashboards and Datasources.
+
+- company:
+    name: Rankmylist Inc.
+    url: "https://www.rankmylist.com"
+    location: Chittagong
+#    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Intern
+    start: Sep 2017
+    end: Nov 2017
+    responsibilities:
+#    - Count lost of interns.
+#    - Count more interns.
+#    - Count me as an intern.

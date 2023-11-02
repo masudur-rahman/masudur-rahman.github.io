@@ -19,13 +19,12 @@ experiences:
   positions:
   - designation: Lead Software Engineer
     start: Jan 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - "Designing and Maintaining <strong>ByteBuilders API Server</strong>. Tools used: Go, macaron web framework, Helm, k8s."
-    - Re-architected cluster import flow for <strong>ByteBuilders</strong> and added dynamic feature controller."
-    - Lead ByteBuilders Backend team."
+    - "Lead the design and maintenance of <strong>AppsCode API Server</strong>, a RESTful API for managing Kubernetes clusters and applications. Tools: Go, go-macaron, Helm, k8s etc."
+    - Restructured the cluster import flow for <strong>AppsCode Console</strong>, improving the user experience and performance.
+    - Implemented dynamic feature controller for managing different features in imported clusters, such as monitoring, security
+    - Restructured the <strong>Licensing</strong> system for AppsCode products, automating the license issuance, validation and enforcement.
+    - "Packaged <strong>AppsCode Console as a Service</strong> and made it ready for deployment in user k8s clusters (vendor-managed or self-managed) and through various DNS providers and Cloud Storage Services. Tools: CloudDNS, Cloudflare, AzureDNS, Route53 etc. and also GCS, s3, Azure Blob Storage, Linode Object Storage."
 
   - designation: Senior Software Engineer
     start: Jan 2021
